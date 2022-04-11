@@ -10,6 +10,7 @@ import Footer from './sections/Footer'
 import LeftButtonGroup from './components/LeftButtonGroup';
 
 function App() {
+
   return (
     <div className="App relative">
       <Header />

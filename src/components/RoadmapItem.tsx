@@ -7,9 +7,11 @@ interface RoadmapItemProps {
 
 export default function RoadmapItem({ title, content }: RoadmapItemProps) {
     return (
-        <div className="rounded-2xl p-10 flex flex-col space-y-4" style={{ boxShadow: '0px 10px 20px 0px #00000026' }}>
-            <div className="text-xl">{title}</div>
-            <img width={60} height={60} src={circle}></img>
+        <div className="h-56 sm:h-72 rounded-2xl p-8 sm:p-5 md:p-8 m-2 flex flex-col" style={{ boxShadow: '0px 10px 20px 0px #00000026' }}>
+            <div className='flex flex-row justify-between sm:flex-col items-center sm:items-start '>
+                <div className="text-xl">{title}</div>
+                <img className='w-6 sm:w-20' src={circle}></img>
+            </div>
             <ul className='list-outside'>
                 {
                     content.map((item, index) => (
