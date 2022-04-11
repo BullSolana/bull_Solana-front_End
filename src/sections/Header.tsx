@@ -1,6 +1,6 @@
 import logo from '../assets/images/logo.svg'
 import hambur from '../assets/images/hambur.svg'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import useWindowSize from '../hooks/useWindowSize'
 import { Link } from 'react-scroll'
 
@@ -21,7 +21,7 @@ export default function Header() {
             <img className='w-6 sm:w-10 lg:hidden' src={hambur} onClick={() => setOpen(!open)}></img>
             {
                 open && width !== undefined && width < 1024 && (
-                    <div className='absolute top-20 right-0 bg-black p-4 flex flex-col items-start'>
+                    <div className='absolute top-20 right-0 bg-black p-4 flex flex-col items-start z-20'>
                         <div className='text-base text-white font-bold cursor-pointer'><Link activeClass='active' to='home' spy={true} smooth={true} duration={500}>HOME</Link></div>
                         <div className='text-base text-white font-bold cursor-pointer'><Link activeClass='active' to='ecosystem' spy={true} smooth={true} duration={500}>ECOSYSTEM</Link></div>
                         <div className='text-base text-white font-bold cursor-pointer'><Link activeClass='active' to='roadmap' spy={true} smooth={true} duration={500}>ROADMAP</Link></div>
