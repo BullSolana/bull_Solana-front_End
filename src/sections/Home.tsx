@@ -11,12 +11,12 @@ export default function Home() {
                     Collaboration is the new competition
                     Together, let’s grow the <span className="text-purple">block</span> a <span className="text-green">chain</span> at a time!
                 </div>
-                <div className="rounded-full p-2 border border-purple flex flex-row items-center">
+                <div className="rounded-full p-2 border border-purple flex flex-row items-center cursor-pointer">
                     <img className='w-8 sm:w-10' src={bull_logo}></img>
                     <div className='px-6 text-xl sm:text-4xl font-bold text-white'>How to buy</div>
                 </div>
             </div>
-            <img className='hidden sm:block absolute top-40 right-32 mix-blend-screen' src={bull}></img>
+            <img className='hidden sm:block opacity-30 xl:opacity-100 absolute top-40 right-32 mix-blend-screen' src={bull}></img>
             <img className='sm:hidden absolute w-3/4 left-1/2 transform -translate-x-1/2 mix-blend-screen' src={bull_dark}></img>
         </div>
     )

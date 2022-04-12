@@ -6,7 +6,7 @@ export default function Ecosystem() {
     return (
         <div id="ecosystem" className="section bg-black px-10 sm:px-20 pb-10 relative flex flex-row items-center text-center sm:text-left place-content-between">
             <div>
-                <img className='hidden sm:block absolute top-1/2 left-32 transform -translate-y-1/2 mix-blend-screen' src={bull_logo} width={360} height={360}></img>
+                <img className='opacity-30 xl:opacity-100 hidden sm:block absolute top-1/2 left-32 transform -translate-y-1/2 mix-blend-screen' src={bull_logo} width={360} height={360}></img>
                 <img className='sm:hidden absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 mix-blend-screen' src={bull_logo_dark} width={300} height={300}></img>
             </div>
             <div className='z-10 max-w-3xl flex flex-col items-center sm:items-start space-y-6'>

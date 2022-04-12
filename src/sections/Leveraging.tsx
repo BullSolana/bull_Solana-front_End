@@ -7,8 +7,9 @@ import game from '../assets/images/game.svg'
 
 export default function Leveraging() {
     return (
-        <div className="mt-10 md:-mt-10 lg:-mt-32 z-0 relative bg-none lg:bg-leveraging bg-cover bg-no-repeat h-full md:h-screen">
-            <div className='relative md:absolute bottom-0 w-full flex flex-col justify-center items-center space-y-6'>
+        <div className='relative'>
+            <img className='hidden lg:block absolute top-0 left-0 w-full h-full' src={leveraging}></img>
+            <div className='pt-16 lg:pt-72 px-10 relative flex flex-col justify-center items-center space-y-6'>
                 <div className='text-2xl sm:text-5xl font-bold text-center'>Leveraging the Power of Meme Community</div>
                 <div className='max-w-3xl text-base sm:text-2xl text-gray font-bold text-center'>
                     Innovation and expansion are key factors in the crypto space. $BULL stand to create a new economic model with a strong approach to DeFi and Web 3.0.
