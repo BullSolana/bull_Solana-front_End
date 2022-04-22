@@ -13,7 +13,7 @@ export default function Tokenomics() {
                     </div>
                 </div>
                 <div className='pl-4 mt-4 sm:mt-0 w-full flex flex-col items-end'>
-                    <img src={tokenomics}></img>
+                    <img src={tokenomics} className=""></img>
                 </div>
             </div>
         </div>
