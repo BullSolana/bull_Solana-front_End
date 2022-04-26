@@ -13,7 +13,7 @@ export default function Home() {
                 </div>
                 <div className="rounded-full p-2 border border-purple flex flex-row items-center cursor-pointer">
                     <img className='w-8 sm:w-10' src={bull_logo}></img>
-                    <div className='px-6 text-xl sm:text-4xl font-bold text-white'>How to buy</div>
+                    <a className='px-6 text-xl sm:text-4xl font-bold text-white cursor-pointer' href='https://raydium.io/swap/?inputCurrency=EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v&outputCurrency=9EKEh1CHMKmyvBTY6qYZm7kgRJE18tCbaY1ZbpdELbVr&inputAmount=1&fixed=in'>Buy</a>
                 </div>
             </div>
             <img className='hidden sm:block opacity-30 xl:opacity-100 absolute top-40 right-32 mix-blend-screen' src={bull}></img>
